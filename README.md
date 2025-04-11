@@ -7,9 +7,9 @@ When you save a location, you'll see a small image with the location, current te
 
 
 ## Screenshots
-![](https://www.opencode.net/feveal/kde-feveal-meteo/-/raw/main/Screenshot_1.png)
+![](https://www.opencode.net/feveal/kde-feveal-meteo/-/raw/main/Screenshot_meteoblue_1.png)
 -
-![](https://www.opencode.net/feveal/kde-feveal-meteo/-/raw/main/plasma_2.png)
+![](https://www.opencode.net/feveal/kde-feveal-meteo/-/raw/main/Screenshot_meteoblue_2.png)
 -
 
 ## Getting started:

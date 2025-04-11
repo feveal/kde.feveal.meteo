@@ -1,32 +1,61 @@
-# kde.feveal.meteo (1.o)
+# kde.feveal.meteo (v1.0)
 
-This plasmoid provides weather data by Meteoblue <https://www.meteoblue.com/> through a free script on its website.
-To configure the location, you need to go to the Meteoblue website and search for the desired location, and in the address bar copy the last part of the address, which consists of city_country_code, for example: madrid_Spain_3117735. You will have to click on the button that appears with a star and the dialog box will open to enter the location data obtained from the page.
-Be careful not to put the slash (/) as this will display the plasmoid incorrectly.
-When you save a location, you'll see a small image with the location, current temperature, and current situation. Clicking on the image expands the view, and you can see the forecast for the following days by clicking on the tabs for each day.
+**A KDE Plasmoid for weather data powered by [Meteoblue](https://www.meteoblue.com/)**
 
+This plasmoid fetches weather information using a public script from the Meteoblue website.
 
-## Screenshots
-![](https://github.com/feveal/kde.feveal.meteo/blob/main/Screenshot_meteoblue_1.png)
--
-![](https://github.com/feveal/kde.feveal.meteo/blob/main/Screenshot_meteoblue_2.png)
--
+To configure your location, visit the Meteoblue website and search for the desired location. In the address bar, copy the last part of the URL — it typically looks like `city_country_code`, for example:
+`madrid_spain_3117735`.
 
-## Getting started:
-Unzip the file. Look in the unzipped folder the file "install_plasmoid.sh". Open the terminal in the folder where the file is located.
+In the plasmoid, click the star icon button to open the input dialog. Paste the location code there.
 
-Run in terminal "./install_plasmoid.sh"
-The Plasmoid is installed just like the rest. ".local/share/plasma/plasmoids/kde.feveal.meteo/"
+⚠️ **Important:** Do not include a slash (`/`) in the location code, as it may break the display.
 
-The Plasmoid is integrated  with the rest.
+Once a location is set, a small weather preview will appear, showing the city, current temperature, and conditions. Clicking the image expands the view to show forecasts for upcoming days — accessible via tabs.
 
-## Description:
-Plasmoid for KDE Desktop
+---
 
-(Version 1.0)
+## 📷 Screenshots
 
-## Authors and acknowledgment:
-Fernando Velez (feveal@hotmail.com)
+![Screenshot 1](https://github.com/feveal/kde.feveal.meteo/blob/main/Screenshot_meteoblue_1.png)
+![Screenshot 2](https://github.com/feveal/kde.feveal.meteo/blob/main/Screenshot_meteoblue_2.png)
 
-## License:
-For open source projects, say how it is licensed
+---
+
+## 🚀 Getting Started
+
+1. **Unzip the downloaded archive.**
+2. Inside the unzipped folder, locate the file: `install_plasmoid.sh`.
+3. Open a terminal in that folder and run:
+
+   ```bash
+   ./install_plasmoid.sh
+   ```
+
+4. The plasmoid will be installed to:
+   `~/.local/share/plasma/plasmoids/kde.feveal.meteo/`
+
+Once installed, it will be available alongside your other system widgets.
+
+---
+
+## 🧹 Description
+
+A simple and clean plasmoid for the KDE Plasma Desktop to display weather data from Meteoblue.
+
+**Version:** 1.0
+
+---
+
+## 👤 Author
+
+Fernando Vélez
+📧 feveal@hotmail.com
+
+---
+
+## 📍 License
+
+This project is open source. Licensed under the **GPLv3** or later.
+See the `LICENSE` file for full details.
+

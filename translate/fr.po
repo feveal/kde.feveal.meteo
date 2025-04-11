@@ -1,4 +1,4 @@
-# Translation of simpleweather in es
+# Translation of simpleweather in fr
 # Copyright (C) 2019
 # This file is distributed under the same license as the simpleweather package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -10,45 +10,44 @@ msgstr ""
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 19.04.3\n"
 "Last-Translator: Fernando Vélez <feveal@hotmail.com>\n"
-"Language: es\n"
-
+"Language: fr\n"
 
 #: ../contents/config/config.qml
 msgid "Location"
-msgstr "Localidad"
+msgstr "Lieu"
 
 #: ../contents/ui/Main.qml
 msgid "Define location"
-msgstr "Definir localidad"
+msgstr "Définir le lieu"
 
 #: ../contents/ui/Main.qml
 msgid "Force refresh"
-msgstr "Forzar refresco"
+msgstr "Forcer le rafraîchissement"
 
 #: ../contents/ui/Main.qml
 msgid "Wind map"
-msgstr "Mapa de viento"
+msgstr "Carte du vent"
 
 #: ../contents/ui/Main.qml
 msgid "<a href='https://www.meteoblue.com/' style='text-decoration:none; color:#f0f8ff;'>Weather data provided by Meteoblue</a>"
-msgstr "<a href='https://www.meteoblue.com/' style='text-decoration:none; color:#f0f8ff;'>Datos de clima de Meteoblue</a>"
+msgstr "<a href='https://www.meteoblue.com/' style='text-decoration:none; color:#f0f8ff;'>Données météorologiques fournies par Meteoblue</a>"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Input Location Code:"
-msgstr "Introduzca código de Localidad"
+msgstr "Saisir le code du lieu :"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Input location; (See Meteoblue)"
-msgstr "Introduzca localidad; (Ver Meteoblue)"
+msgstr "Saisir le lieu ; (Voir Meteoblue)"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Note: To obtain the code for the MeteoBlue website, search for the location, copy, and paste the last part of the web address, consisting of the city_country_code; e.g., paris_france_2988507"
-msgstr "Nota: Para obtener el código vaya a la web de MeteoBlue, busque la ubicación, copie y pegue la última parte de la dirección web, que consiste en ciudad_país_código; por ejemplo, paris_france_2988507"
+msgstr "Note : Pour obtenir le code, allez sur le site de MeteoBlue, recherchez le lieu, copiez et collez la dernière partie de l'adresse Web, composée de ville_pays_code ; par exemple, paris_france_2988507"
 

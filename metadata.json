@@ -1,0 +1,27 @@
+{
+	"KPlugin": {
+		"Authors": [
+			{
+				"Email": "feveal@hotmail.com",
+				"Name": "Fernando Velez"
+			}
+		],
+		"Category": "Weather",
+		"Description": "Weather based in Meteoblue data",
+		"Icon": "desktop",
+		"Id": "kde.feveal.meteo",
+		"Name": "Meteo-blue Plasmoid",
+		"Type": "Service",
+		"ServiceTypes": ["Plasma/Applet"],
+		"X-KDE-PluginInfo-License": "GPLv3",
+		"Version": "1.0",
+		"Website": "https://github.com/feveal/kde.feveal.meteo"
+	},
+	"X-Plasma-API": "declarativeappletscript",
+	"X-Plasma-MainScript": "ui/Main.qml",
+	"X-Plasma-DefaultSize": "360,140",
+	"X-Plasma-StandAloneApp": true,
+
+	"X-Plasma-Requires-FileDialog": "Unused",
+	"X-Plasma-Requires-LaunchApp": "Unused"
+}

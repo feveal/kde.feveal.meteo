@@ -1,0 +1,27 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Meteo-blue
+Comment=Weather based in Meteoblue data
+
+Icon=desktop
+Type=Service
+ServiceTypes=Plasma/Applet
+
+X-KDE-ParentApp=
+X-KDE-PluginInfo-Author=Fernando Velez
+X-KDE-PluginInfo-Email=feveal@hotmail.com
+X-KDE-PluginInfo-Website=https://github.com/feveal/kde.feveal.meteo
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Category=Weather
+X-KDE-PluginInfo-License=GPLv3
+X-KDE-PluginInfo-Name=kde.feveal.meteo
+
+X-KDE-ServiceTypes=Plasma/Applet
+
+X-Plasma-API=declarativeappletscript
+X-Plasma-DefaultSize=360,140
+X-Plasma-StandAloneApp=true
+X-Plasma-MainScript=ui/Main.qml
+
+X-Plasma-Requires-FileDialog=Unused
+X-Plasma-Requires-LaunchApp=Unused

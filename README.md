@@ -26,7 +26,8 @@ Once a location is set, a small weather preview will appear, showing the city, c
 
 1. **Unzip the downloaded archive.**
 2. Inside the unzipped folder, locate the file: `install_plasmoid.sh`.
-3. Open a terminal in that folder and run:
+3. Give execute permissions for this file
+4. Open a terminal in that folder and run:
 
    ```bash
    ./install_plasmoid.sh
